@@ -1,0 +1,232 @@
+# 💡 E-Commerce Customer & Order Analytics — Key Insights
+
+## 1. Overall Order Activity
+
+- The dataset contains **1,000 orders** from **300 registered customers**.
+- **285 customers** placed at least one order, resulting in a **95.0% customer activation rate**.
+- The analysis focuses on order activity, customer behavior, geographic distribution, repeat purchases, and retention.
+
+### Business Insight
+
+The high 95.0% activation rate indicates that most registered customers have made at least one purchase. However, the remaining inactive customers represent an opportunity for targeted conversion campaigns.
+
+---
+
+## 2. Order Status Analysis
+
+- **805 orders** were completed successfully.
+- **103 orders** were cancelled.
+- **92 orders** were returned.
+- Completed orders represent **80.5%** of total orders.
+- Cancelled orders represent **10.3%** of total orders.
+- Returned orders represent **9.2%** of total orders.
+
+### Business Insight
+
+The majority of orders were completed successfully. However, the 10.3% cancellation rate and 9.2% return rate indicate that order cancellations and returns should be monitored to identify possible operational or customer-experience issues.
+
+---
+
+## 3. Monthly Order Trends
+
+- Order activity varied across the analysis period.
+- The highest number of orders occurred in **October 2024**, with **102 orders**.
+- The lowest number of orders occurred in **July 2024**, with **66 orders**.
+- This represents a difference of **36 orders** between the highest and lowest months.
+
+### Business Insight
+
+Monthly order trends can help the business identify periods of high and low customer activity and support better planning of marketing campaigns and operational resources.
+
+---
+
+## 4. Geographic Analysis
+
+The top countries by order volume were:
+
+| Rank | Country | Orders |
+|---|---|---:|
+| 1 | Spain | 225 |
+| 2 | Italy | 223 |
+| 3 | France | 194 |
+| 4 | Morocco | 190 |
+| 5 | Germany | 168 |
+
+- **Spain** recorded the highest order volume with **225 orders**.
+- **Italy** followed closely with **223 orders**.
+- France recorded **194 orders**, while Morocco recorded **190 orders**.
+- Germany recorded **168 orders**.
+
+### Business Insight
+
+Spain and Italy are the strongest markets based on order activity. These markets could receive greater marketing attention, while lower-volume markets can be evaluated for opportunities to improve customer engagement.
+
+---
+
+## 5. Customer Activity
+
+- There are **300 registered customers** in the dataset.
+- **285 customers** placed at least one order.
+- The customer activation rate is **95.0%**.
+- **15 registered customers** did not place an order during the analysis period.
+
+### Business Insight
+
+The 15 customers who registered but did not place an order represent a potential conversion opportunity. Targeted onboarding emails, promotional offers, or reminders could be used to encourage their first purchase.
+
+---
+
+## 6. Repeat Customer Analysis
+
+- **246 customers** placed more than one order.
+- **39 customers** placed exactly one order.
+- The repeat customer rate among active customers is **86.3%**.
+- The repeat customer rate compared with all registered customers is **82.0%**.
+- The highest-frequency customer placed **9 orders**.
+
+### Business Insight
+
+The high repeat customer rate indicates strong customer engagement among active customers. Repeat customers can be targeted with loyalty programs, personalized recommendations, and exclusive offers.
+
+---
+
+## 7. Customer Order Frequency
+
+- Customer order frequency varies across the customer base.
+- **246 customers** placed multiple orders.
+- **39 customers** placed only one order.
+- The highest-frequency customer, **Customer 99**, placed **9 orders**.
+- Several customers placed 7–8 orders during the analysis period.
+
+### Business Insight
+
+High-frequency customers represent an important engaged customer group. The business can use loyalty rewards and personalized campaigns to maintain their engagement and encourage continued purchasing.
+
+---
+
+## 8. Customer Retention Analysis
+
+Retention was analyzed based on whether an active customer made another purchase within 30, 60, or 90 days of their first order.
+
+### 30-Day Retention
+
+- **63 customers** made another purchase within 30 days.
+- 30-day repeat rate: **22.1%**
+
+### 60-Day Retention
+
+- **113 customers** made another purchase within 60 days.
+- 60-day repeat rate: **39.6%**
+
+### 90-Day Retention
+
+- **149 customers** made another purchase within 90 days.
+- 90-day repeat rate: **52.3%**
+
+### Business Insight
+
+The repeat-purchase rate increases from **22.1% within 30 days** to **52.3% within 90 days**. This indicates that a significant portion of customers return after their initial purchase, although many customers do not make a second purchase within the first 30 days.
+
+The business could therefore focus on early post-purchase engagement to encourage customers to return sooner.
+
+---
+
+## 9. Customer Engagement Segmentation
+
+Customers were analyzed using recency and frequency metrics.
+
+The analysis can be used to identify groups such as:
+
+- **Loyal Customers**
+- **Regular Customers**
+- **New/One-Time Customers**
+- **At-Risk Customers**
+
+### Business Insight
+
+Different customer groups require different engagement strategies:
+
+| Customer Segment | Recommended Strategy |
+|---|---|
+| Loyal Customers | Loyalty rewards and exclusive offers |
+| Regular Customers | Personalized recommendations |
+| New/One-Time Customers | Follow-up campaigns and incentives |
+| At-Risk Customers | Re-engagement campaigns |
+
+---
+
+## 10. Power BI Dashboard Insights
+
+The Power BI dashboard provides an interactive view of:
+
+- Total Orders
+- Total Customers
+- Repeat Customer Rate
+- Completed Orders
+- Monthly Order Trends
+- Orders by Country
+- Order Status Distribution
+- Customer Engagement Segments
+- Customer Signup Trends
+- Top Customers by Order Frequency
+- Interactive slicers
+
+The dashboard allows users to explore order and customer performance using filters such as country, order status, year, and customer segment.
+
+---
+
+## 11. Key Business Recommendations
+
+Based on the analysis, the following actions can be considered:
+
+1. **Focus on repeat customers** through loyalty programs and personalized offers.
+2. **Target one-time customers** to encourage a second purchase.
+3. **Improve early retention** by engaging customers during the first 30 days after their initial purchase.
+4. **Focus marketing efforts on high-performing markets**, particularly Spain and Italy.
+5. **Monitor cancellation and return rates** to identify potential operational issues.
+6. **Target inactive registered customers** with onboarding and conversion campaigns.
+7. **Use customer segmentation** to provide different strategies for loyal, regular, new, and at-risk customers.
+
+---
+
+## 12. Project Conclusion
+
+This project demonstrates how customer and order data can be transformed into actionable business insights using **Python, Pandas, SQL, and Power BI**.
+
+The analysis identified:
+
+- **1,000 total orders**
+- **300 registered customers**
+- **285 active customers**
+- **246 repeat customers**
+- **80.5% completed-order rate**
+- **86.3% repeat customer rate among active customers**
+- **52.3% 90-day repeat-purchase rate**
+- **Spain as the highest-order country with 225 orders**
+
+The Power BI dashboard provides an interactive way to monitor key customer and order metrics and identify opportunities for improving customer engagement and retention.
+
+---
+
+## ⚠️ Data Limitations
+
+The available order dataset does not contain:
+
+- Product IDs linked to orders
+- Quantity
+- Price
+- Revenue
+- Profit
+
+Therefore, product-level sales and financial analysis were not performed.
+
+Future versions of the project could incorporate these fields to enable:
+
+- Revenue analysis
+- Profit analysis
+- Average Order Value
+- Product performance
+- Category performance
+- Customer Lifetime Value
+- Monetary-based RFM analysis
+- Churn prediction
